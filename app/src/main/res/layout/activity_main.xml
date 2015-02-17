@@ -31,21 +31,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/TFnum2" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/emptystring"
-        android:id="@+id/Lresult" />
-
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.51">
+        android:layout_weight="0.16" >
 
         <TableRow
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent" >
 
             <Button
                 style="?android:attr/buttonStyleSmall"
@@ -85,5 +78,12 @@
                 android:layout_column="3" />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/emptystring"
+        android:id="@+id/Lresult" />
 
 </LinearLayout>
